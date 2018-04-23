@@ -15,6 +15,14 @@
         </TR>
         {% endfor %}
         {% endblock %}
+        <button id="testa" value = "/myApp/elements" onclick="openReport()">test</button>
     </TABLE>
+
+    <script>
+    	function openReport() {
+			url = document.getElementById("testa").value;
+			window.open(url);
+		}
+	</script>
 </BODY>
 </HTML>

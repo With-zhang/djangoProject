@@ -25,4 +25,15 @@
 		}
 	</script>
 </BODY>
+<script type="text/javascript">
+    window.onload = function () {
+        var className = "hiddenrow"
+        var elements = document.getElementsByClassName(className),
+            n = elements.length;
+        for (var i = 0; i < n; i++) {
+            var e = elements[i];
+            e.style.display = 'none';
+        }
+    }
+</script>
 </HTML>
